@@ -66,15 +66,15 @@
     {
         "id": 4,
         "title": "Appartement 4",
-        "cover": "images/appartement4/photo1.png",
+        "cover": "images/appartement4/photo1.PNG",
         "pictures":[
-            "images/appartement4/photo1.png",           
-            "images/appartement4/photo2.png",           
-            "images/appartement4/photo3.png",           
-            "images/appartement4/photo4.png",           
-            "images/appartement4/photo5.png",           
-            "images/appartement4/photo6.png",           
-            "images/appartement4/photo7.png"           
+            "images/appartement4/photo1.PNG",           
+            "images/appartement4/photo2.PNG",           
+            "images/appartement4/photo3.PNG",           
+            "images/appartement4/photo4.PNG",           
+            "images/appartement4/photo5.PNG",           
+            "images/appartement4/photo6.PNG",           
+            "images/appartement4/photo7.PNG"           
         ],
         "description": "Appartement de 90 m² avec tout confort cuisine américaine, salle de bain, 2 chambres et salon-salle à manger. L'appartement est meublé avec des meubles de qualité.",
         "piece": [
