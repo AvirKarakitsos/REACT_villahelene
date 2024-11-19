@@ -3,7 +3,7 @@ import arrowLeft from '../assets/images/arrow-left.png'
 import arrowRight from '../assets/images/arrow-right.png'
 import { useState } from 'react'
 import { useViewport } from '../utils/useViewport'
-import { URL } from '../common/constant'
+import { URL } from '../utils/constants'
 
 function Slideshow({images}) {
     let numberImages = images.length

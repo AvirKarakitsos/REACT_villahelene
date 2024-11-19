@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import styles from "../assets/styles/Card.module.scss"
-import { URL } from "../common/constant"
+import { URL } from "../utils/constants"
 
 function Card({value}) {
     return (
