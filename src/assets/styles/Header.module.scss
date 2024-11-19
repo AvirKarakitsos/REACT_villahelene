@@ -1,0 +1,41 @@
+@import "./colors";
+
+.header {
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 650px) {
+        height: 47px;
+    }
+    h2 {
+        display: contents;
+        color: $color-primary;
+        @media (max-width: 650px) {
+            font-size: 22px;
+        }
+    }
+    &__navbar {
+        width: 309px;
+        &__list {
+            display: flex;
+            list-style-type: none;
+            font-size: 24px;
+            @media (max-width: 650px) {
+                font-size: 17px;
+            }
+            & li{
+                width: 100%;
+                text-align: right;
+                color: $color-primary;
+                cursor: default;
+                & a {
+                    color: $color-primary;
+                }
+                & .link {
+                    text-decoration: none;
+                }
+            }        
+        }
+    }
+}

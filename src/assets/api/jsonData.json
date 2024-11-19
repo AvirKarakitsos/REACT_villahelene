@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "title": "Appartement 1",
+        "cover": "images/appartement1/photo1.png",
+        "pictures":[
+            "images/appartement1/photo1.png",            
+            "images/appartement1/photo2.png",
+            "images/appartement1/photo3.png",
+            "images/appartement1/photo4.png"            
+        ],
+        "description": "Appartement de 130 m² avec une terrasse de 100 m² et un débarras de 60 m². Tout le confort cuisine, salle de bain, 2 grandes chambres et salon-salle à manger de 70 m² avec cheminée. L’appartement est meublé avec des meubles de qualité.",
+        "piece": [
+            "1 salon / salle à manger",
+            "2 chambres",
+            "1 salle de bain"
+        ],
+        "total": "4 pièces",
+        "space": 130,
+        "price": 500
+    },
+    {
+        "id": 2,
+        "title": "Appartement 2",
+        "cover": "images/appartement2/photo1.png",
+        "pictures":[
+            "images/appartement2/photo1.png",            
+            "images/appartement2/photo2.png",
+            "images/appartement2/photo3.png",
+            "images/appartement2/photo4.png",            
+            "images/appartement2/photo5.png",            
+            "images/appartement2/photo6.png"            
+        ],
+        "description": "Appartementt de 90 m² avec tout confort cuisine américaine, salle de bain, 2 chambres et salon-salle à manger.",
+        "piece": [
+            "1 salon / salle à manger",
+            "2 chambres",
+            "1 salle de bain"
+
+        ],
+        "total": "4 pièces",
+        "space": 90,
+        "price": 180
+    },
+    {
+        "id": 3,
+        "title": "Appartement 3",
+        "cover": "images/appartement3/photo1.png",
+        "pictures":[
+            "images/appartement3/photo1.png",            
+            "images/appartement3/photo2.png",
+            "images/appartement3/photo3.png",
+            "images/appartement3/photo4.png"            
+        ],
+        "description": "Appartement de 120 m² avec une terrasse de 50 m² et un balcon de 15 m² (1,5 m x 10 m). Tout le confort cuisine, salle de bain, 2 chambres et salon-salle à manger de 70 m² avec cheminée.",
+        "piece": [
+            "1 salon",
+            "2 chambres",
+            "2 salles-de-bain"
+        ]
+        ,
+        "total": "4 pièces",
+        "space": 120,
+        "price": 230
+    },
+    {
+        "id": 4,
+        "title": "Appartement 4",
+        "cover": "images/appartement4/photo1.png",
+        "pictures":[
+            "images/appartement4/photo1.png",           
+            "images/appartement4/photo2.png",           
+            "images/appartement4/photo3.png",           
+            "images/appartement4/photo4.png",           
+            "images/appartement4/photo5.png",           
+            "images/appartement4/photo6.png",           
+            "images/appartement4/photo7.png"           
+        ],
+        "description": "Appartement de 90 m² avec tout confort cuisine américaine, salle de bain, 2 chambres et salon-salle à manger. L'appartement est meublé avec des meubles de qualité.",
+        "piece": [
+            "1 salon",
+            "2 chambres",
+            "1 salle de bain"
+        ]
+        ,
+        "total": "4 pièces",
+        "space": 90,
+        "price": 200
+    }
+]

@@ -1,0 +1,51 @@
+@import "./colors";
+
+.main {
+    margin: 50px 0;
+    & .background {
+        height: 350px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        &__image {
+            height: 100%;
+            width: 400px;
+            display: block;
+            object-fit: cover;
+            filter: brightness(75%);
+            border-radius: 25px;
+        }
+        &__title {
+            padding: 16px;
+            position: absolute;
+            font-size: 48px;
+            font-weight: 500;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+            text-align: center;
+            color: $color-white;
+        }
+    }
+    & .gallery {
+        &__container {
+            margin: 43px 0 0 0;
+            padding: 50px 20px 43px 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            column-gap: 25px;
+            row-gap: 100px;
+            background-color: $color-background;
+            border-radius: 25px;
+            @media (max-width:1024px){
+                grid-template-columns: 1fr 1fr;
+            }
+            @media (max-width:650px){
+                padding: 15px 0;
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}
