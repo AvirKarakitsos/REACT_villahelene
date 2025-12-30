@@ -9,8 +9,8 @@ function Contact() {
         <Layout>
             <main className={styles.container}>
                <section className={styles.container__info}>
-                    <p>Pour tout renseignement,</p>
-                    <p>Veuillez nous contacter à ce numéro : <strong>+33 56 78 89 21</strong></p>
+                    <p>Pour tout renseignement</p>
+                    <p>Nous contacter à ce numéro : <strong>+33 56 78 89 21</strong></p>
                </section>
                <section className={styles.container__map}>
                     <p>1229 4 Rue Du Prince Ramaharo - Ampasambazaha - Bp</p>
